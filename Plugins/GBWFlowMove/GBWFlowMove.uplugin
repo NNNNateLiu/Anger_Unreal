@@ -1,0 +1,36 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "GBWFlowMove",
+	"Description": "FlowMoveSystem, Provide your character with a cool high-speed move ability, Multiplayer game ready!",
+	"Category": "GBW",
+	"CreatedBy": "GBWGame",
+	"CreatedByURL": "https://www.unrealengine.com/marketplace/en-US/profile/GBWGame",
+	"DocsURL": "https://www.wikiful.com/@GBWGame/gbwgame-wiki",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/e4e9a1b478944c6f8728a0ce061c585e",
+	"SupportURL": "https://www.wikiful.com/@GBWGame/gbwgame-wiki/online-technical-support",
+	"EngineVersion": "5.0.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "GBWRMS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		},
+		{
+			"Name": "GBWFlowMove",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"PlatformAllowList": [
+				"Win64"
+			]
+		}
+	],
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false
+}
